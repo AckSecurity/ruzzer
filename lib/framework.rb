@@ -1,16 +1,19 @@
+#!/usr/bin/env ruby
 
-require 'ruzzer/version'
-require 'ruzzer/console/parser_params'
+require 'framework/version'
+require 'framework/ui/console/parser_params'
 
 module Framework
   class Ruzzer
-    def initialize
-      Framework::Console::ParserParams.new(ARGV)
-      run
-    end
+    def initialize; end
 
-    def run
-      puts 'Running ....'
+    def run(ui)
+      case
+        when ui == :console
+          @options = Framework::Ui::Console::ParserParams.parse(ARGV)
+      end
+
+      puts "Running version #{Framework::VERSION} over this url: #{@options.url}"
     end
   end
 end

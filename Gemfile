@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in Ruzzer.gemspec
+# Specify your gem's dependencies in framework.gemspec
 gemspec
