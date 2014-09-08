@@ -6,7 +6,7 @@ module Framework
 
       class Banner
 
-        FILE_ASCII = 'lib/framework/ui/console/resources/ruzzer.ascii'
+        FILE_ASCII = 'lib/ruzzer/ui/console/resources/ruzzer.ascii'
 
         def self.print_ascii_art
           if File.exists?(FILE_ASCII)
