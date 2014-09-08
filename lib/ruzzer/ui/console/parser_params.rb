@@ -3,7 +3,7 @@
 require 'optparse'
 require 'ostruct'
 
-module Framework
+module Ruzzer
   module Ui
     module Console
 
@@ -46,7 +46,7 @@ module Framework
         end
 
         def self.usage
-          banner = Framework::Ui::Console::Banner.ascii_art
+          banner = Ruzzer::Ui::Console::Banner.ascii_art
           banner << "\n"
           banner << "Usage: ruzzer.rb [options]"
         end

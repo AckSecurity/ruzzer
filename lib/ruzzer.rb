@@ -1,24 +1,23 @@
 #!/usr/bin/env ruby
 
-require 'framework/version'
-require 'framework/ui/console/banner'
-require 'framework/ui/console/parser_params'
+require 'ruzzer/version'
+require 'ruzzer/ui/console/banner'
+require 'ruzzer/ui/console/parser_params'
 
-module Framework
-  class Ruzzer
-
+module Ruzzer
+  class Framework
     def initialize; end
 
-    def run(ui)
+    def self.start(ui)
       case
       when ui == :console
-        @options = Framework::Ui::Console::ParserParams.parse
+        @options = Ruzzer::Ui::Console::ParserParams.parse
         run_console
       end
     end
 
-    def run_console
-      Framework::Ui::Console::Banner.print_ascii_art
+    def self.run_console
+      Ruzzer::Ui::Console::Banner.print_ascii_art
       puts "#{@options[:url]}"
     end
   end

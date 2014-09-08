@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-module Framework
+module Ruzzer
   module Ui
     module Console
 

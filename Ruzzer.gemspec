@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'Ruzzer/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "framework"
+  spec.name          = "ruzzer"
   spec.version       = Ruzzer::VERSION
   spec.authors       = ["gorums"]
   spec.email         = ["gorumlabmatcom@gmail.com"]
