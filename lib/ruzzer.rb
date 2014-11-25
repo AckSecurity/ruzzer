@@ -12,7 +12,12 @@ module Ruzzer
       case
       when ui == :console
         @options = Ruzzer::Ui::Console::ParserParams.parse
-        run_console
+        if @options[:url] == ""
+          usage = Ruzzer::Ui::Console::ParserParams.help
+          puts usage
+        else
+          run_console
+        end
       end
     end
 

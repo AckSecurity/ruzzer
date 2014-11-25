@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "ruzzer"
   spec.version       = Ruzzer::VERSION
   spec.authors       = ["gorums"]
-  spec.email         = ["gorumlabmatcom@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.email         = ["acksecurity@hotmail.com"]
+  spec.summary       = %q{Fuzzer tool dedicated to web pentest}
+  spec.description   = %q{This tool tries to find vulnerability on web sites}
+  spec.homepage      = "https://www.ruzzer.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
