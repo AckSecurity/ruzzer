@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    Ruzzer (0.0.1)
+    ruzzer (0.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -12,6 +12,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  Ruzzer!
   bundler (~> 1.7)
   rake (~> 10.0)
+  ruzzer!

@@ -12,7 +12,6 @@ module Ruzzer
 
           options = Hash.new
           options[:verbose] = false
-          options[:url] = ""
 
           begin
             opt_parser = OptionParser.new do |opts|
