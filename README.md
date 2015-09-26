@@ -1,6 +1,10 @@
 # Ruzzer
 
-This tool was created to inject payload on the software input.
+The idea with this framework is generate stream to send into the target and monitor whether throw an exception.
+
+## Goals
+
+1. Generate different type of stream 
 
 ## Installation
 
@@ -22,6 +26,10 @@ Or install it yourself as:
 
 ./ruzzer.rb [OPTIONS]
 
+## OPTIONS
+
+ -v  Show the version
+ 
 ## Contributing
 
 1. Fork it ( https://github.com/gorums/ruzzer/fork )
