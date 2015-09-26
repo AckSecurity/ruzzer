@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/ruzzer.svg)](http://badge.fury.io/rb/ruzzer) [![Coverage Status](https://coveralls.io/repos/gorums/ruzzer/badge.svg?branch=master&service=github)](https://coveralls.io/github/gorums/ruzzer?branch=master)
+
 # Ruzzer
 
 The idea with this framework is generate stream to send into the target and monitor whether throw an exception.
