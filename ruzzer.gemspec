@@ -4,8 +4,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ruzzer/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = Ruzzer::Version.to_s
-  spec.version       = "0.0.1"
+  spec.name          = "ruzzer"
+  spec.version       = Ruzzer::Version.to_s
   spec.authors       = ["Alejandro Ferrandiz Fonseca"]
   spec.email         = ["acksecurity@hotmail.com"]
   spec.summary       = %q{Fuzzer Framework on Ruby}
