@@ -2,4 +2,4 @@
 
 require 'ruzzer'
 
-puts Ruzzer.start
+puts Ruzzer.cli

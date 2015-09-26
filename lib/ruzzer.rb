@@ -1,7 +1,9 @@
 #!/usr/bin/env ruby
 
+require 'ruzzer/cli/cli'
+
 class Ruzzer
-    def self.start
-      puts 'Start ruzzer'
+    def self.cli
+      Cli.init
     end
 end
