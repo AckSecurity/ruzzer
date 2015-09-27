@@ -3,15 +3,14 @@
 require 'ruzzer/cli/option_parser'
 
 module Ruzzer
-
   def self.run(args = ARGV)
     option_parser.parse(args)
 
-    puts generate option_parser.options[:generate] if option_parser.options[:generate] != nil
+    puts generate option_parser.options[:generate]
 
     puts 'Done.'
     true
-  rescue  => error
+  rescue => error
     warn error.message
     false
   end
@@ -21,15 +20,12 @@ module Ruzzer
   end
 
   def self.inject(payloads = [])
-
   end
 
   def self.monitor
-
   end
 
   def self.report
-
   end
 
   private
@@ -37,5 +33,4 @@ module Ruzzer
   def self.option_parser
     @option_parser ||= OptionParser.new
   end
-
 end

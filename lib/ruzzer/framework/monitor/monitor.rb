@@ -1,3 +1,4 @@
+
 module Ruzzer
   module Framework
     class Monitor

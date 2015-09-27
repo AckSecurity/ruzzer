@@ -7,7 +7,7 @@ module Ruzzer
   class OptionParser
     attr_accessor :options
 
-    def initialize(options = {:generate => nil})
+    def initialize(options = { generate: nil })
       @options = options
       setup
     end
@@ -29,13 +29,10 @@ module Ruzzer
         puts Version.to_s
         exit
       end
-
     end
 
     def define_option(*options, &block)
-      long_option = options.find { |option| option.start_with?('--') || option.start_with?('-')}
-                        .split(' ')
-                        .first
+      long_option = options.find { |option| option.start_with?('--') || option.start_with?('-') }.split(' ').first
 
       description_lines = descriptions[long_option]
 
@@ -57,18 +54,10 @@ module Ruzzer
 
     def descriptions
       @descriptions ||= {
-          '--generate' => [
-              'Generate a fuzzer stream using [expression]'
-          ],
-          '-g' => [
-              'Generate a fuzzer stream using [expression]'
-          ],
-          '-v' => [
-              "Show #{command_name} version."
-          ],
-          '--version' => [
-              "Show #{command_name} version."
-          ]
+          '--generate' => ['Generate a fuzzer stream using [expression]'],
+          '-g' => ['Generate a fuzzer stream using [expression]'],
+          '-v' => ["Show #{command_name} version."],
+          '--version' => ["Show #{command_name} version."]
       }
     end
   end
