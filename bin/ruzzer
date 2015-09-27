@@ -2,4 +2,6 @@
 
 require 'ruzzer'
 
-puts Ruzzer.cli
+result = Ruzzer.run
+
+exit(result ? 0 : 1)
