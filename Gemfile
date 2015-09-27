@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 # Specify your gem's dependencies in ruzzer.gemspec
 gemspec
 
+gem "codeclimate-test-reporter", group: :test, require: nil
+
 group :development, :test do
   gem 'rake', '~> 10.4'
   gem 'rspec', '~> 3.1'
