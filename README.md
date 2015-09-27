@@ -1,4 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/ruzzer.svg)](http://badge.fury.io/rb/ruzzer) [![Build Status](https://travis-ci.org/gorums/ruzzer.svg)](https://travis-ci.org/gorums/ruzzer) [![Coverage Status](https://coveralls.io/repos/gorums/ruzzer/badge.svg?branch=master&service=github)](https://coveralls.io/github/gorums/ruzzer?branch=master)
+[![Gem Version](https://badge.fury.io/rb/ruzzer.svg)](http://badge.fury.io/rb/ruzzer) [![Build Status](https://travis-ci.org/gorums/ruzzer.svg)](https://travis-ci.org/gorums/ruzzer) [![Code Climate](https://codeclimate.com/github/gorums/ruzzer/badges/gpa.svg)](https://codeclimate.com/github/gorums/ruzzer) [![Test Coverage](https://codeclimate.com/github/gorums/ruzzer/badges/coverage.svg)](https://codeclimate.com/github/gorums/ruzzer/coverage)
 
 # Ruzzer
 
